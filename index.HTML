@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Specifies the character encoding for the HTML document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets the viewport to make the website responsive -->
+    <title>Skyler Blu's First WebPage</title> <!-- Title of the webpage -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <header>
+        <nav>
+    <!-- Checkbox for the menu toggle -->
+    <input type="checkbox" id="menu-toggle">
+    <!-- Label for the checkbox, this will be the hamburger icon -->
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="navigation">
+                <li><a href="#home">Home</a></li> <!-- Navigation link to Home section -->
+                <li><a href="#about">About Me</a></li> <!-- Navigation link to About Me section -->
+                <li><a href="#contact">Contact</a></li> <!-- Navigation link to Contact section -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Hello &amp; welcome to my first webpage!</h1> <!-- Main heading for the Home section -->
+            <p>My name is Skyler Blu &amp;  I'm currently a student at Coding Temple, in the software engineering bootcamp. I joined this program after completing my Bachelor of Science in Information Technology with a concentration in software development..</p> <!-- Paragraph introducing the webpage -->
+            <a href="https://www.facebook.com/profile.php?id=61572801414472">Visit my Facebook</a> <!-- Link to Facebook profile -->
+            <a href="'https://x.com/SkylerBlu444">Visit my Twitter</a> <!-- Link to Twitter profile -->
+        <section id="about">
+            <h2>About Me</h2> <!-- Heading for the About Me section -->
+            <p>I'm engaged to my girlfriend of 6 years and we have 3 beautiful daughters. I recently earned a Bachelor's degree in Information Technology with a focus on software development. My goal is to work remotely as a software engineer and start a local IT business called SBS Tech. This business will provide IT solutions for local companies, including designing, implementing, and maintaining their IT infrastructure.</p>
+            <h2> What I enjoy!</h2>
+            <ul>
+                
+                <li>Learning new things</li> <!-- List item for hobbies/interests -->
+                <li>Spending time with my family</li> <!-- List item for hobbies/interests -->
+                <li>Listening to music</li> <!-- List item for hobbies/interests -->
+                <li>Attending music festivals</li> <!-- List item for hobbies/interests -->
+                <li>Traveling to new places</li> <!-- List item for hobbies/interests -->
+                <li>Reading</li> <!-- List item for hobbies/interests -->
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2> <!-- Heading for the Contact section -->
+            <div class="container">
+                <aside class="aside aside-1">
+                    <form action="#" method="POST"> <!-- Contact form with POST method -->
+                        <fieldset>
+                            <legend>Contact Form</legend> <!-- Legend for the form -->
+                            <label for="name">Name</label> <!-- Label for name input -->
+                            <input type="text" id="name" name="name" placeholder="You can be anonymous"> <!-- Input for name -->
+
+                            <label for="birthdate">Birthdate</label> <!-- Label for birthdate input -->
+                            <input type="date" id="birthdate" name="birthdate" placeholder="Enter your birthdate"> <!-- Input for birthdate -->
+
+                            <label for="phone_number">Phone Number</label> <!-- Label for phone number input -->
+                            <input type="tel" id="phone_number" name="phone_number" placeholder="You can enter phone number"> <!-- Input for phone number -->
+
+                            <label for="email">Email</label> <!-- Label for email input -->
+                            <input type="email" id="email" name="email" placeholder="You can be anonymous."> <!-- Input for email -->
+
+                            <label for="state">State</label> <!-- Label for state input -->
+                            <input type="text" id="state" name="state" placeholder="you can enter your state"> <!-- Input for state -->
+
+                            <label for="subject">Subject</label> <!-- Label for subject input -->
+                            <input type="text" id="subject" name="subject" placeholder="What subject you would like to discuss."> <!-- Input for subject -->
+
+                            <label for="message">Message</label> <!-- Label for message textarea -->
+                            <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message here."></textarea> <!-- Textarea for message -->
+
+                            <input type="submit" value="Submit"> <!-- Submit button -->
+                            <input type="reset" value="Reset"> <!-- Reset button -->
+                        </fieldset>
+                    </form>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Skyler Blu. All rights reserved.</p> <!-- Footer with copyright information -->
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
